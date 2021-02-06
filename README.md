@@ -7,9 +7,9 @@ This repo shares some convenient and easy-to-use ARM templates.
 These templates use the best practice way, well organize the structure, and reasonable use of some functions.
  
 1. [Batch Create Virtual Machines ARM Template](BatchCreateVMs-Template.json). 
-  - quickly deployment.
-  - a little of parameters with default values.
-  - [click here to deploy to Azure][1]
+   - quickly deployment.
+   - a little of parameters with default values.
+   - [click here to deploy to Azure][1]
 
 
 ## References
