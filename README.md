@@ -1,8 +1,9 @@
 # Azure Resource Manager Templates
 
+## Introduction
 This repo shares some convenient and easy-to-use ARM templates.
 
-## ARM Template List
+## Get started
 
 These templates use the best practice way, well organize the structure, and reasonable use of some functions.
  
