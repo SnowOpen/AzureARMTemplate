@@ -278,5 +278,12 @@
         }
     ],
     "outputs": {
+        "vmids": {
+        "type": "array",
+        "copy": {
+          "count": "[parameters('numberOfVirtualMachines')]",
+          "input": "[resourceId(resourceGroup().name, 'Microsoft.Compute/virtualMachines', concat(parameters('prefixOfResource'), parameters('virtualMachineName'), copyIndex(1)))]"
+    }
+  }
     }
 }
