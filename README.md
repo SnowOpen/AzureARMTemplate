@@ -11,7 +11,11 @@ These templates use the best practice way, well organize the structure, and reas
    - quickly deployment.
    - a little of parameters with default values.
    - [click here to deploy to Azure][1]
-
+   - 
+2. [Batch Create Virtual Machines ARM Template](disk.json). 
+   - quickly deployment.
+   - a little of parameters with default values.
+   - [click here to deploy to Azure][2]
 
 ## References
 
@@ -21,3 +25,4 @@ These templates use the best practice way, well organize the structure, and reas
 
 
 [1]: https://portal.azure.com/#create/Microsoft.Template/uri/https%3a%2f%2fraw.githubusercontent.com%2fSnowOpen%2fAzureARMTemplate%2fmain%2fBatchCreateVMs-Template.json
+[2]: https://portal.azure.com/#create/Microsoft.Template/uri/https%3a%2f%2fraw.githubusercontent.com%2fSnowOpen%2fAzureARMTemplate%2fmain%2fdisk.json
