@@ -1,0 +1,38 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "diskName": {
+            "type": "string",
+            "defaultValue": "disk1"
+        },
+        "sku": {
+            "type": "string",
+            "defaultValue": "Standard_LRS"
+        },
+        "diskSizeGb": {
+            "type": "int",
+            "defaultValue": 32
+        }
+    },
+    "resources": [
+        {
+            "apiVersion": "2021-04-01",
+            "type": "Microsoft.Compute/disks",
+            "name": "[parameters('diskName')]",
+            "location": "[resourceGroup().location]",
+            "properties": {
+                "osType": "",
+                "creationData": {
+                    "createOption": "empty"
+                },
+                "diskSizeGB": "[parameters('diskSizeGb')]",
+                "networkAccessPolicy": "AllowAll"
+            },
+            "sku": {
+                "name": "[parameters('sku')]"
+            },
+            "tags": {}
+        }
+    ]
+}
