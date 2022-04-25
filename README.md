@@ -12,7 +12,7 @@ These templates use the best practice way, well organize the structure, and reas
    - a little of parameters with default values.
    - [click here to deploy to Azure][1]
    - 
-2. [Batch Create Virtual Machines ARM Template](disk.json). 
+2. [quickly deploy disk](disk.json). 
    - quickly deployment.
    - a little of parameters with default values.
    - [click here to deploy to Azure][2]
